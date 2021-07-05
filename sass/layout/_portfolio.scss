@@ -131,4 +131,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.556;
+  @media screen and (max-width: 380px) {
+    font-size: 14px;
+  }
 }

@@ -1501,6 +1501,12 @@ img {
   line-height: 1.556;
 }
 
+@media screen and (max-width: 380px) {
+  .example__hidden-text {
+    font-size: 14px;
+  }
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
