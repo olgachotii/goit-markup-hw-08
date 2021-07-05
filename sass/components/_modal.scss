@@ -30,6 +30,7 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 93.75%;
+  height: 90%;
 
   @media screen and (min-width: 768px) {
     width: 450px;
@@ -98,8 +99,8 @@
 }
 
 .modal-form__field {
-  @media screen and (max-height: 615px) {
-    height: 5vh;
+  @media screen and (max-height: 665px) {
+    height: 30px;
   }
   height: 40px;
   padding-left: 42px;
@@ -109,8 +110,8 @@
   display: block;
   padding: 12px 16px;
   margin-top: 4px;
-  @media screen and (max-height: 615px) {
-    height: 10vh;
+  @media screen and (max-height: 665px) {
+    height: 10%;
   }
   height: 120px;
   resize: none;

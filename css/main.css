@@ -693,6 +693,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 93.75%;
+  height: 90%;
   background-color: var(--wight-color);
   border-radius: 4px;
   box-shadow: var(--shadow-card);
@@ -763,9 +764,9 @@ img {
   padding-left: 42px;
 }
 
-@media screen and (max-height: 615px) {
+@media screen and (max-height: 665px) {
   .modal-form__field {
-    height: 5vh;
+    height: 30px;
   }
 }
 
@@ -777,9 +778,9 @@ img {
   resize: none;
 }
 
-@media screen and (max-height: 615px) {
+@media screen and (max-height: 665px) {
   .modal-form__coment {
-    height: 10vh;
+    height: 10%;
   }
 }
 
