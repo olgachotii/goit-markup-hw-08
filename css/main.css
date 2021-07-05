@@ -1458,6 +1458,12 @@ img {
   padding: 20px 24px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .example__box--height {
+    height: 146px;
+  }
+}
+
 .example__title {
   margin-bottom: 4px;
   color: var(--title-text-color);
