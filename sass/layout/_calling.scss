@@ -1,0 +1,43 @@
+.calling {
+  display: none;
+  padding-top: 0;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
+.calling__list {
+  display: flex;
+}
+
+.calling__card + .calling__card {
+  margin-left: 30px;
+}
+
+.calling__thumb {
+  position: relative;
+}
+
+.calling__content {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  background-color: var(--callng-background-color);
+}
+
+.calling__title {
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--wight-color);
+}
