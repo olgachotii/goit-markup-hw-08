@@ -55,6 +55,10 @@
   &__item:not(:last-child) {
     margin-bottom: 32px;
   }
+
+  &__link--active {
+    color: var(--accent-first-color);
+  }
 }
 
 .mobail-menu-contact {
